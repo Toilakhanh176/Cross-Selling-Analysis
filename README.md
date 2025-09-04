@@ -1,5 +1,9 @@
 # 📊 Cross-selling Analysis
 
+## Authors::
+## Bùi Mai Khanh
+## Lê Phúc Bảo Ngọc
+
 ## Overview  
 This project analyzes customer purchasing behavior using **Chipotle dataset (4,622 records)**.  
 The goal is to identify product associations, design optimized product combos, and provide actionable business insights to support cross-selling strategies.  
