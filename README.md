@@ -1,6 +1,6 @@
 # 📊 Cross-selling Analysis
 
-## Authors::
+## Authors:
 ## Bùi Mai Khanh
 ## Lê Phúc Bảo Ngọc
 
