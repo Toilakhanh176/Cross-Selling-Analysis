@@ -63,11 +63,10 @@ The goal is to identify product associations, design optimized product combos, a
    - **Chips ↔ Canned Soft Drink** shows the **strongest association** (Lift ≈ **1.75**).  
    - **Chicken Bowl** frequently appears with **Chips** and beverages.
 
-   > _Insert image here:_ `images/association_rules_scatter.png`  
-   > (Support–Confidence–Lift plot)
+![LIFT](images/compare.jpg)
    >
-   > _Insert image here:_ `images/heatmap_products.png`  
-   > (Product co-occurrence heatmap)
+![MATRIX](images/matrix.jpg)
+
 
 3. **Model performance (Logistic Regression)**
    - Overall performance across target items ranges **~77% to ~93% accuracy**.  
@@ -75,9 +74,10 @@ The goal is to identify product associations, design optimized product combos, a
      - **Chips & Guacamole**: Accuracy ≈ **0.77**  
      - **Steak Burrito**: Accuracy ≈ **0.87**  
      - **Steak Bowl**: Accuracy ≈ **0.86**
+     
+For example, one special feature:
+ ![STEAK](images/STEAK.jpg) 
 
-   > _Insert image here:_ `images/classification_reports.png`  
-   > (Concise table or montage of classification reports)
 
 ---
 
@@ -86,8 +86,10 @@ The goal is to identify product associations, design optimized product combos, a
 - **Healthy Choice**: `Veggie Soft Tacos + Veggie Bowl + Bottled Water`  
 - **Seasonal (Summer)**: `Chicken Salad Bowl + Chips + Canned Soda`
 
-> _Insert image here:_ `images/recommended_combos_table.png`  
-> (One table with combo, rationale, and target audience)
+For example, the results for **Enhanced Experience**:
+![chicken](images/chicken.jpg) 
+![chips](images/chips.jpg) 
+![canned](images/canned.jpg) 
 
 ---
 ## Results  
