@@ -9,6 +9,13 @@ This project analyzes customer purchasing behavior using **Chipotle dataset (4,6
 The goal is to identify product associations, design optimized product combos, and provide actionable business insights to support cross-selling strategies.  
 
 ---
+## 🎯 Objectives
+- Increase **revenue** and **average order value** through cross-sell recommendations.
+- Personalize customer experience using **behavioral data analysis**.
+- Provide **prescriptive suggestions** (combos, promos, timing) for business teams.
+
+---
+
 
 ## Tools & Techniques  
 - **Programming & Environment:** Python, Jupyter Notebook  
@@ -32,10 +39,10 @@ The goal is to identify product associations, design optimized product combos, a
 
 3. **Association Rule Mining**  
    - Built cross-selling matrix.  
-   - Applied **Apriori Algorithm** to extract frequent itemsets and rules.  
+   - Applied  **Association Rules (Apriori)** with frequent itemsets, **support–confidence–lift** to detect strong cross-sell links.  
 
 4. **Predictive Modeling**  
-   - Implemented **Logistic Regression** to predict purchase trends.  
+   - Implemented **Logistic Regression** (with **SMOTE** for class balance) to estimate purchase likelihood of key items.
    - Achieved model accuracy of **77% – 93%**.  
 
 5. **Prescriptive Analysis**  
@@ -44,6 +51,46 @@ The goal is to identify product associations, design optimized product combos, a
 
 ---
 
+## 📈 Key Findings
+1. **Top sellers / revenue drivers**
+   - **Chicken Bowl** (~$7,000; ~700 orders)  
+   - **Chicken Burrito** (~$5,200; ~500 orders)  
+   - **Chips & Guacamole** (~$2,200; standout side)
+
+   > _Insert image here:_ `images/top10_revenue.png`  
+   > _Insert image here:_ `images/top10_quantity.png`
+
+2. **Strong cross-sell links**
+   - **Chips ↔ Canned Soft Drink** shows the **strongest association** (Lift ≈ **1.75**).  
+   - **Chicken Bowl** frequently appears with **Chips** and beverages.
+
+   > _Insert image here:_ `images/association_rules_scatter.png`  
+   > (Support–Confidence–Lift plot)
+   >
+   > _Insert image here:_ `images/heatmap_products.png`  
+   > (Product co-occurrence heatmap)
+
+3. **Model performance (Logistic Regression)**
+   - Overall performance across target items ranges **~77% to ~93% accuracy**.  
+   - Examples:
+     - **Chips & Guacamole**: Accuracy ≈ **0.77**  
+     - **Steak Burrito**: Accuracy ≈ **0.87**  
+     - **Steak Bowl**: Accuracy ≈ **0.86**
+
+   > _Insert image here:_ `images/classification_reports.png`  
+   > (Concise table or montage of classification reports)
+
+---
+
+## Recommended Combos (Ready-to-Use)
+- **Enhanced Experience**: `Chicken Bowl + Chips + Canned Soft Drink`  
+- **Healthy Choice**: `Veggie Soft Tacos + Veggie Bowl + Bottled Water`  
+- **Seasonal (Summer)**: `Chicken Salad Bowl + Chips + Canned Soda`
+
+> _Insert image here:_ `images/recommended_combos_table.png`  
+> (One table with combo, rationale, and target audience)
+
+---
 ## Results  
 - Proposed **5+ optimized product combos** with high accuracy (**77% – 93%**).  
 - Delivered **cross-selling insights** applicable to:  
