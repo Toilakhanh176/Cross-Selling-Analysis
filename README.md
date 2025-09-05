@@ -57,8 +57,7 @@ The goal is to identify product associations, design optimized product combos, a
    - **Chicken Burrito** (~$5,200; ~500 orders)  
    - **Chips & Guacamole** (~$2,200; standout side)
 
-   > _Insert image here:_ `images/top10_revenue.png`  
-   > _Insert image here:_ `images/top10_quantity.png`
+![TOP 10 QUANTITY & REVENUE](images/top10.jpg)
 
 2. **Strong cross-sell links**
    - **Chips ↔ Canned Soft Drink** shows the **strongest association** (Lift ≈ **1.75**).  
