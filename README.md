@@ -2,7 +2,6 @@
 
 ## Authors:
 - **Bùi Mai Khanh**
-- **Lê Phúc Bảo Ngọc**
 
 ## Overview  
 This project analyzes customer purchasing behavior using **Chipotle dataset (4,622 records)**.  
